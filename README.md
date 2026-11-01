@@ -1,21 +1,23 @@
+🇧🇷 Português | [🇺🇸 English](README.en.md)
+
 # ledgerflow
 
-A transaction processing service built with pure Node.js, created to master the fundamentals of the platform.
+Um serviço de processamento de transações construído com Node.js puro, criado para dominar os fundamentos da plataforma.
 
 
-## About
+## Sobre
 
-ledgerflow receives financial transactions (deposits, withdrawals and transfers), validates them, applies business rules and records everything in an append-only ledger.
+O ledgerflow recebe transações financeiras (depósitos, saques e transferências), valida, aplica regras de negócio e registra tudo em um ledger append-only (registro em que os dados só são adicionados, nunca alterados ou apagados).
 
-The project is built in phases. Each phase focuses on a core Node.js concept, using built-in modules wherever possible.
+O projeto é construído em fases. Cada fase foca em um conceito central do Node.js, usando módulos nativos sempre que possível.
 
-## Getting started
+## Como Começar
 
-### Prerequisites
+### Pré-requisitos
 
-- Node.js (LTS version)
+- Node.js (versão LTS)
 
-### Installation
+### Instalação
 
 ```bash
 git clone https://github.com/ludimilladev/ledgerflow.git
@@ -24,7 +26,7 @@ npm install
 ```
 
 
-For development with automatic restart:
+Para desenvolvimento com reinício automático:
 
 ```bash
 npm run dev
@@ -32,10 +34,10 @@ npm run dev
 
 ## Roadmap
 
-- [x] Project setup
-- [ ] Phase 1: CLI that processes large transaction files with streams
-- [ ] Phase 2: HTTP server using only the built-in `http` module
-- [ ] Phase 3: Event-driven transaction pipeline with `EventEmitter`
-- [ ] Phase 4: Background processing with `worker_threads`
-- [ ] Phase 5: Persistence, logging and graceful shutdown
-- [ ] Phase 6: Automated tests with the built-in test runner
+- [x] Configuração do projeto
+- [ ] Fase 1: CLI que processa arquivos grandes de transações com streams
+- [ ] Fase 2: Servidor HTTP usando apenas o módulo nativo `http`
+- [ ] Fase 3: Pipeline de transações orientado a eventos com `EventEmitter`
+- [ ] Fase 4: Processamento em segundo plano com `worker_threads`
+- [ ] Fase 5: Persistência, logs e encerramento gracioso (graceful shutdown)
+- [ ] Fase 6: Testes automatizados com o test runner nativo
